@@ -7,7 +7,7 @@ $imgs = Get-ChildItem $imgDir -File | Where-Object { $_.Extension -match '(?i)\.
 $nl = "`r`n"
 $md = "# Evolution of my Battlestation " + [char]0xD83E + [char]0xDD88 + $nl + $nl
 $md += "A running photo log of the chumthewaters battlestation, 2006 -> present. Oldest first." + $nl + $nl
-$md += "> **Add a shot:** drop it in ``images/`` named ``NN-YYYY.jpg`` (next number), then run ``powershell -ExecutionPolicy Bypass -File build-readme.ps1``." + $nl + $nl + "---" + $nl + $nl
+$md += "---" + $nl + $nl
 foreach ($f in $imgs) { $yr=""; if($f.BaseName -match '(\d{4})'){ $yr=$matches[1] }; $md += ("### " + $yr) + $nl + ("![" + $f.BaseName + "](images/" + $f.Name + ")") + $nl + $nl }
 $md += "---" + $nl + ("_" + $imgs.Count + " shots and counting._") + $nl
 Set-Content -Path (Join-Path $root 'README.md') -Value $md -Encoding UTF8

@@ -2,8 +2,6 @@
 
 A running photo log of the chumthewaters battlestation, 2006 -> present. Oldest first.
 
-> **Add a shot:** drop it in `images/` named `NN-YYYY.jpg` (next number), then run `powershell -ExecutionPolicy Bypass -File build-readme.ps1`.
-
 ---
 
 ### 2006
@@ -63,6 +61,24 @@ A running photo log of the chumthewaters battlestation, 2006 -> present. Oldest 
 ### 2015
 ![19-2015-labeled](images/19-2015-labeled.jpg)
 
+### 2020
+![20-2020](images/20-2020.jpg)
+
+### 2020
+![21-2020](images/21-2020.jpg)
+
+### 2023
+![22-2023](images/22-2023.jpg)
+
+### 2026
+![23-2026](images/23-2026.jpg)
+
+### 2026
+![24-2026](images/24-2026.jpg)
+
+### 2026
+![25-2026](images/25-2026.jpg)
+
 ---
-_19 shots and counting._
+_25 shots and counting._
 
